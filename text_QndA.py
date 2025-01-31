@@ -2,7 +2,7 @@
 import streamlit as st
 from llm_config import get_llm_model
 from llm_config import get_output_parser
-from llm_config import get_chat_prompt
+from llm_prompt import get_chat_prompt
 
 def ask_question(input_text):
     #get LLAMA3.1 model

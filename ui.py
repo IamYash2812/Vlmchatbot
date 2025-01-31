@@ -1,5 +1,5 @@
 import streamlit as st
-from pdf import pdf_QndA
+# from pdf import pdf_QndA
 from text_QndA import ask_question
 
 def main():
@@ -16,7 +16,8 @@ def main():
     st.title("Welcome to VLM Chat Bot")
     
     if option == "Chat with PDF":
-        pdf_QndA()
+        # pdf_QndA()
+        pass
         
     elif option == "Text Question Answer":
         st.subheader("Ask a text-based question")
