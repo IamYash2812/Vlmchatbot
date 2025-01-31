@@ -5,7 +5,7 @@ from llm_config import get_output_parser
 from llm_config import get_chat_prompt
 
 def ask_question(input_text):
-    #get LLAMA2 model
+    #get LLAMA3.1 model
     llm = get_llm_model()
 
     #get prompt_template
