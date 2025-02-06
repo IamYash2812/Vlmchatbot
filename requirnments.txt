@@ -1,5 +1,0 @@
-langchain
-openai
-langchain-community
-streamlit
-sentence-transformers
