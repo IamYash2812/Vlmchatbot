@@ -32,15 +32,16 @@ In today's data-rich environment, accessing and interpreting information from di
    git clone https://github.com/yourusername/vlm-chatbot.git
    cd vlm-chatbot
 
-2.**Set Up a Virtual Environment:**
+2. **Set Up a Virtual Environment:**
 
   python3 -m venv venv
   source venv/bin/activate  # On Windows, use venv\Scripts\activate
   
-3.**Install Dependencies:**
+3. **Install Dependencies:**
 
   pip install -r requirements.txt
-4.Usage
+  
+4. Usage
 
   streamlit run app.py
 
